@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev --respawn --exit-child index.ts",
+    "startApollo": "ts-node-dev --respawn --exit-child indexApollo.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "apollo-server": "^2.25.2",
     "fastify": "^3.18.1",
     "graphql": "^15.5.1",
     "mercurius": "^8.0.0",
